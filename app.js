@@ -37,6 +37,13 @@ app.get('/post', async (req, res) => {
   await res.render('post');
 });
 
+// single BLOGS
+app.get('/blogs/:id', async (req, res) => {
+  // console.log(req.params.id);
+  const blog = await Blog.findById(req.params.id);
+  res.render('post', { blog });
+});
+
 // Get Data from add_post page
 app.post('/blogs', async (req, res) => {
   // new Blog information
