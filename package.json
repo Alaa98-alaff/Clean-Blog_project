@@ -27,12 +27,6 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-<<<<<<< HEAD
-    "isodate": "^0.1.4",
-    "mongodb": "^3.6.9",
-    "mongoose": "^5.12.13"
-=======
     "mongodb": "^3.6.9"
->>>>>>> cdae3bb9ae2bdafd39913fe6e6e7bf6b60ed19d9
   }
 }
