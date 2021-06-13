@@ -11,6 +11,7 @@ const pageController = require('./controllers/pageControllers');
 mongoose.connect('mongodb://localhost:27017/cleanblog-test-db', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  useFindAndModify: false,
 });
 
 // Middelware
